@@ -46,7 +46,7 @@ def update_user(user_id: int, user: UpdateUser):
     
     if user.name != None:
         users[user_id].name = user.name
-    if users.age != None:
+    if user.age != None:
         users[user_id].age = user.age
     if user.year != None:
         users[user_id].year = user.year
