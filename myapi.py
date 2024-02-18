@@ -58,3 +58,7 @@ def delete_user(user_id: int):
         return{"Error": "User does not exist"}
     del users[user_id]
     return{"Message": "User deleted successfully"}
+
+
+
+#ok this is fine
